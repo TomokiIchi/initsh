@@ -1,4 +1,4 @@
-set PATH /usr/local/bin /usr/sbin /.anyenv/bin /bin /usr/bin /sbin /usr/local/bin/code /Users/tomoki.ichikawa/Develop/flutter/bin /Applications/Visual Studio Code.app/Contents/Resources/app/bin /usr/local/opt/avr-gcc@7/bin ~/.rbenv/shims ~/.pyenv/shims  /Users/tomoki.ichikawa/Library/Android/sdk/platform-tools $PATH
+set PATH /usr/local/bin /usr/sbin /.anyenv/bin /bin /usr/bin /sbin /usr/local/bin/code /Users/tomoki.ichikawa/Develop/flutter/bin /Applications/Visual Studio Code.app/Contents/Resources/app/bin /usr/local/opt/avr-gcc@7/bin ~/.rbenv/shims ~/.pyenv/shims /usr/local/opt/mysql@5.7/bin /Users/tomoki.ichikawa/Library/Android/sdk/platform-tools $PATH
 set -U FZF_LEGACY_KEYBINDINGS 0
 set -U FZF_REVERSE_ISEARCH_OPTS "--reverse --height=100%"
 set -x PATH $HOME/.anyenv/bin $PATH
