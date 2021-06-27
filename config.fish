@@ -3,7 +3,7 @@ set -U FZF_LEGACY_KEYBINDINGS 0
 set -U FZF_REVERSE_ISEARCH_OPTS "--reverse --height=100%"
 set -x PATH $HOME/.anyenv/bin $PATH
 eval (anyenv init - | source)
-set fish_plugins theme peco
+set fish_plugins theme git rbenv rails brew bundler gem osx pbcopy better-alias gi peco z tmux
 set GHQ_SELECTOR peco
 set fish_theme agnoster
 
