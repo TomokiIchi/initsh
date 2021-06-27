@@ -66,6 +66,9 @@ brew install ghp
 brew install peco
 brew install z
 brew install go
+brew install yarn
+ghq get zenorocha/dracula-theme
+fisher install oh-my-fish/theme-bobthefish
 
 #----------------------------------------------------------
 # Apps
@@ -96,3 +99,6 @@ brew install --cask android-studio
 brew install --cask zoom
 # 英かなのインストール
 brew install --cask cmd-eikana
+
+# Font「Cica」のインストール
+ghq get https://github.com/miiton/Cica.git
