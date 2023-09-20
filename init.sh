@@ -41,6 +41,30 @@ defaults write com.apple.frameworks.diskimages skip-verify-remote -bool true
 # ゴミ箱を空にする前の警告の無効化
 defaults write com.apple.finder WarnOnEmptyTrash -bool false
 
+# コメントなしバージョン
+sudo pmset -a standbydelay 86400
+sudo nvram SystemAudioVolume=" "
+defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
+defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
+sudo systemsetup -setcomputersleep Off > /dev/null
+defaults write com.apple.CrashReporter DialogType -string "none"
+defaults write com.apple.dock launchanim -bool false
+defaults write com.apple.dock persistent-apps -array
+defaults write com.apple.finder DisableAllAnimations -bool true
+defaults write com.apple.finder AppleShowAllFiles -bool true
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+defaults write com.apple.finder ShowStatusBar -bool true
+defaults write com.apple.finder ShowPathbar -bool true
+defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+defaults write com.apple.frameworks.diskimages skip-verify -bool true
+defaults write com.apple.frameworks.diskimages skip-verify-locked -bool true
+defaults write com.apple.frameworks.diskimages skip-verify-remote -bool true
+defaults write com.apple.finder WarnOnEmptyTrash -bool false
+
+
 #----------------------------------------------------------
 # Dev
 #----------------------------------------------------------
